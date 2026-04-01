@@ -1,0 +1,50 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+
+# Flutter/Dart
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.dart_tool/
+build/
+
+# Android
+*.apk
+*.aab
+*.dex
+*.jar
+*.so
+.gradle/
+local.properties
+
+# iOS
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Supabase/Environment
+.env
+*.env
+!.env.example
+
+# Supabase config (contains your personal credentials)
+tweet_vault_app/lib/src/2_domain/config/supabase_config.dart
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Test
+coverage/
+
+# Screenshots (keep source files but not build outputs)
+# screenshots/
+
+supabase_config.dart
