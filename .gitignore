@@ -34,7 +34,7 @@ local.properties
 !.env.example
 
 # Supabase config (contains your personal credentials)
-tweet_vault_app/lib/src/2_domain/config/supabase_config.dart
+supabase_config.dart
 
 # IDE
 .idea/
@@ -46,5 +46,3 @@ coverage/
 
 # Screenshots (keep source files but not build outputs)
 # screenshots/
-
-supabase_config.dart
